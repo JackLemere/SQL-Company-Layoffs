@@ -24,8 +24,6 @@ SELECT location, SUM(total_laid_off) FROM layoffs_staging2
 GROUP BY location
 ORDER BY 2 DESC;
 
-SELECT * FROM layoffs_staging2;
-
 -- Countries ordered by most layoffs
 SELECT country, SUM(total_laid_off) FROM layoffs_staging2
 GROUP BY country
@@ -39,6 +37,11 @@ ORDER BY 1 DESC;
 -- Company stages ordered by most layoffs
 SELECT stage, SUM(total_laid_off) FROM layoffs_staging2
 GROUP BY stage
+ORDER BY 2 DESC;
+
+-- Industries ordered by most layoffs
+SELECT industry, SUM(total_laid_off) FROM layoffs_staging2
+GROUP BY industry
 ORDER BY 2 DESC;
 
 -- Months ordered by most layoffs
@@ -131,3 +134,10 @@ GROUP BY company, industry
 ORDER BY 1 DESC
 )
 SELECT * FROM TopFiveCount;
+
+
+-- Industries who appear most in the top 5 layoffs per month
+
+SELECT COUNT(industry) AS Times_in_Top_5_layoffs, industry FROM monthly_rankings
+GROUP BY industry
+ORDER BY 1 DESC;
