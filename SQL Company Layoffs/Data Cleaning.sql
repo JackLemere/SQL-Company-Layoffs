@@ -19,8 +19,7 @@ SELECT * FROM layoffs;
 -- 1. REMOVING DUPLICATES
 SELECT *, 
 ROW_NUMBER() OVER(PARTITION BY company, industry, total_laid_off, percentage_laid_off, 'date') AS row_num
-FROM layoffs_staging
-WHERE row_num > 1;
+FROM layoffs_staging;
 
 WITH duplicate_cte AS
 (
