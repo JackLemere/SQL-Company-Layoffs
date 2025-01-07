@@ -6,8 +6,8 @@ This project aims to seek insights into data involving employee layoffs of appro
 was to uncover any potential patterns or areas of interest in the companies that were laying off employees, particularly at the maximums where companies saw the highest amount of layoffs compared to other companies. Analysis was also performed
 on the dates of when employees were laid off, as well as what industry sectors these companies belonged to. The main questions sought to answer were:
 
-- Which companies in general saw the most layoffs?
-- What parts of the world saw the most layoffs?
+- Which companies laid off the most of their employees?
+- What regions in the world saw the most layoffs?
 - Which industry sectors saw the most layoffs?
 - At what times were there a lot of layoffs?
 
