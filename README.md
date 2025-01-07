@@ -24,7 +24,7 @@ When looking at which industries were most affected, it was found that the top t
 
 Finally looking at when the most layoffs occured, the year 2022 saw the highest number of layoffs, though when looking deeper on a month by month basis January 2023 saw the highest number of layoffs with a total of 84,514. November 2022 and February 2023 round out the top 3 with 53,392 and 36,493 total layoffs worldwide respectively.
 
-## Conclusions
+## Conclusions and Theories
 
 When analyzing the data for these companies, it is important to consider that there can be a number of reasons why a company may need to layoff employees. It is possible that a company may have simply been outcompeted, suffered from poorly managed finances, legal issues, or a number of other possibilities. Though each company is unique in this regard, we do see some pattern emerge from the results which can provide us with a number of predictors as to what is happening in each of these company's industries. For starters, the timespan of this data, as stated earlier, spans the majority of the COVID-19 pandemic. One insight we saw was that two of the top 3 industries to go under during this time belonged to Retail and Food. These are sectors that often rely heavily on customer interaction, which would have likely been greatly impeded during the pandemic. A company in a different industry, Katerra, was found to have been the largest company to go under during this time period. Further research shows that the company cited the COVID-19 pandemic as one of the main reasons for it's downfall. 
 
