@@ -33,6 +33,6 @@ By looking at location data as well, it may be the case that companies in differ
 Although the hypotheses mentioned are mearly speculative, the analysis done in this project can serve not only as a base for exploring the data, but also as a way to help generate more questions based on the insights gathered. A number of key questions were answered, though if one wanted to further enrich this project, there are certainly a number of ways this analysis could be explored further and help to answer more specific questions for real-world problems. 
 
 ## Credits
-These queries in this project were implemented using MySQL Workbench.
+The SQL queries in this project were implemented using MySQL Workbench.
 
 This project was completed as part of the Alex the Analyst Data Analyst Bootcamp from which the data was sourced.
